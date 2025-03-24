@@ -1,9 +1,57 @@
 
-* {
+*{
+    padding: 0;
+    margin: 0;
     font-family: "Tektur", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
+}
+body{
+    background: url(../../Image/camera.jpg);
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+i{
+    color: white;
+}
+.hamburger{
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    left: 20px;
+    line-height: 50px;
+}
+.side-menu{
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
+}
+.logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+.side-menu .logo a{
+    position: absolute;
+    left: 60px;
+}
+.x-icon{
+
+}
+.media{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    align-content: end;
+}
+.media li{
+    display: inline-block;
+}
