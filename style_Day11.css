@@ -1,68 +1,80 @@
-
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     font-family: "Tektur", sans-serif;
 }
-body{
+.main{
     background: url(../../Image/camera.jpg);
     background-size: cover;
+    height: 100vh;
+    width: 100%;
 }
-a{
-    text-decoration: none;
-    color: white;
-}
-i{
-    color: white;
-}
+
 .hamburger{
-    font-size: 40px;
-    font-weight: 700;
+    color: #fff;
     position: absolute;
-    left: 20px;
+    font-size: 40px;
+    font-weight: 400px;
     line-height: 50px;
 }
-.side-menu{
-    position: fixed;
-    /* left: 0px; */
+.side-bar{
     height: 100vh;
     width: 300px;
     background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 6px rgba(61, 69, 103, 0.389);
+    position: fixed;
 }
 .logo{
-    position: absolute;
-    width: 100%;
     line-height: 60px;
-    font-size: 25px;
-    font-weight: bold;
-    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
-}
-.side-menu .logo a{
     position: absolute;
-    left: 60px;
+    box-shadow: 0 0 4px rgba(160, 170, 211, 0.634);
+    width: 99.8%;
+}
+.logo a{
+    font-size: 28px;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 20px;
+    text-decoration: none;
 }
 .x-icon{
-    
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 260px;
+    position: absolute;
+    line-height: 60px;
 }
 .menu{
-
+    position: absolute;
+    margin-top: 70px;
 }
 .menu li{
-    font-size: 18px;
+    line-height: 52px;
 }
 .menu li i{
-    left: 15px;
+    color: #fff;
+    font-size: 22px;
+    padding-left: 25px;
+    padding-right: 15px;
 }
 .menu li a{
-    left: 25px;
+    color: #fff;
+    font-size: 23px;
+    text-decoration: none;
 }
-.media li{
-    bottom: 25px;
-    display: flex;
-    justify-content: center;
+.social{
+    position: absolute;
+    bottom: 50px;
 }
-.social li i{
+.media{
+    margin-left: 75px ;
+}
+.social ul li{
+    display: inline-block;
+    margin: 5px;
+}
+.social ul li a{
+    color: rgba(255, 255, 255, 0.9);
     font-size: 20px;
-    font-weight: 400;
 }
